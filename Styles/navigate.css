@@ -1,8 +1,9 @@
-main {
-  font-size: 30px;
-  font-weight: bold;
-  float: left;
-  margin-right: 30px;
+.image-logo {
+  background-color: green;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
 }
 .navbar {
   font-size: 13px;
@@ -14,11 +15,14 @@ main {
 .nav-bar {
   font-size: 13px;
   font-weight: 550;
-  border-radius: 10px;
-  color: grey;
-  border: solid rgb(186, 186, 186);
-  background-color: white;
-  border-width: 1px;
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+  border-color: none;
+}
+.right-bar {
+  margin-bottom: 11px;
+  padding-right: 20px;
 }
 .down {
   transform: rotate(45deg);
@@ -33,7 +37,8 @@ main {
 }
 .side-bar {
   padding: 11px;
-  margin-right: 20px;
+  margin-right: 50px;
+  background-color: orangered;
 }
 .side-buttons {
   margin-left: 30px;
@@ -52,9 +57,19 @@ main {
   margin-left: 130px;
   font-size: 15px;
 }
+.description {
+  color: white;
+  background-color: black;
+  font-size: 13px;
+  border-radius: 7px;
+  width: 100px;
+  height: 40px;
+}
 .desktop {
+  float: right;
   width: 700px;
-  margin-top: 10px;
+  padding-top: 0px;
+  background-color: yellow;
 }
 .web-photo {
   display: flex;
