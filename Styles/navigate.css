@@ -1,28 +1,47 @@
 .image-logo {
-  background-color: green;
-}
-.logo {
+  background-color: gren;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 20px;
+}
+.logo {
+  padding: center;
+  margin-top: 10px;
+  width: 70px;
+  height: 30px;
 }
 .navbar {
+  padding: center;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 330;
+  margin-left: 40px;
+  margin-top: 0px;
   border: none;
-  color: grey;
-  background-color: white;
+  background: none;
+}
+.login-navbar {
+  margin-left: 20px;
+  float: right;
+  padding: center;
+  margin-top: 11px;
+  border: none;
+  background: none;
 }
 .nav-bar {
+  margin-left: 40px;
   font-size: 13px;
-  font-weight: 550;
-  border-radius: 7px;
+  font-weight: 300;
+  border-radius: 12px;
   width: 100px;
   height: 40px;
-  border-color: none;
+  background: none;
+  border-color: grey;
+  float: right;
 }
 .right-bar {
   margin-bottom: 11px;
   padding-right: 20px;
+  margin-left: 690px;
 }
 .down {
   transform: rotate(45deg);
@@ -36,9 +55,8 @@
   margin-left: 3px;
 }
 .side-bar {
-  padding: 11px;
-  margin-right: 50px;
-  background-color: orangered;
+  margin-top: 11px;
+  display: inline-block;
 }
 .side-buttons {
   margin-left: 30px;
@@ -47,32 +65,48 @@
   font-size: 60px;
   font-weight: bold;
   width: 1170px;
-  margin-bottom: 40px;
-  margin-top: 150px;
+  margin-bottom: 30px;
+  margin-top: 120px;
   margin-left: 130px;
 }
 .body {
   width: 400px;
-  color: rgb(128, 128, 128);
+  color: grey;
+  font-weight: 700;
   margin-left: 130px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .description {
   color: white;
   background-color: black;
   font-size: 13px;
-  border-radius: 7px;
-  width: 100px;
+  border-radius: 10px;
+  padding: center;
+  width: 125px;
   height: 40px;
+  margin-left: 130px;
+  margin-top: 30px;
 }
 .desktop {
-  float: right;
-  width: 700px;
-  padding-top: 0px;
-  background-color: yellow;
+  width: 400px;
+  height: 530px;
+  margin-top: 20px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: row;
 }
 .web-photo {
   display: flex;
-  flex-wrap: wrap;
-  background-color: blue;
+  flex-direction: column;
+  margin-right: -400px;
+}
+.web-image {
+  display: flex;
+  flex-direction: row;
+}
+.icon {
+  margin-top: 67px;
+  margin-left: 130px;
+  size: 30px;
+  margin-right: -80px;
 }
